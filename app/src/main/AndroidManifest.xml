@@ -17,6 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".module.animation.CountDownAnimationActivity"
+            android:label="@string/activity_count_down_animation_name"/>
     </application>
 
 </manifest>

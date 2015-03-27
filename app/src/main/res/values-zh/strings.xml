@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_count_down_animation_name">倒计时动画</string>
+</resources>

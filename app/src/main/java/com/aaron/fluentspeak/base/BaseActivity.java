@@ -10,5 +10,5 @@ import android.support.v4.app.FragmentActivity;
  * @author ran.huang
  * @version 1.0.0
  */
-public class BaseActivity extends FragmentActivity {
+public abstract class BaseActivity extends FragmentActivity {
 }

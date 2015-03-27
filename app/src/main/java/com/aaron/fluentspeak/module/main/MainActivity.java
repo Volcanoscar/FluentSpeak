@@ -1,5 +1,6 @@
 package com.aaron.fluentspeak.module.main;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -7,6 +8,7 @@ import android.widget.ListView;
 
 import com.aaron.fluentspeak.R;
 import com.aaron.fluentspeak.base.BaseActivity;
+import com.aaron.fluentspeak.module.animation.CountDownAnimationActivity;
 import com.aaron.fluentspeak.utils.PopupUtils;
 
 import java.util.ArrayList;
@@ -62,12 +64,13 @@ public class MainActivity extends BaseActivity {
     private final AdapterView.OnItemClickListener mOnItemClickListener = new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            Class<?> cls = null;
             switch ((int) id) {
                 case MainItem.POSITION_XIAOMI_WEATHER:
 
                     break;
                 case MainItem.POSITION_ANIMATION:
-
+                    cls = CountDownAnimationActivity.class;
                     break;
                 case MainItem.POSITION_IMAGE_LOADER:
 
@@ -75,6 +78,7 @@ public class MainActivity extends BaseActivity {
                 default:
                     break;
             }
+            startActivity(new Intent(MainActivity.this, cls));
         }
     };
 
