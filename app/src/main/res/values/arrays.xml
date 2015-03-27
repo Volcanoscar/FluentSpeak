@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_item_title">
+        <item>题一：从小米天气服务器获取数据 解析并保存数据</item>
+        <item>题二：闯关过场倒计时动画</item>
+        <item>题三：加载图片</item>
+    </string-array>
+    <string-array name="main_item_description">
+        <item>注：重点考虑访问Server，解析过程，保存本地过程各环节的方法优化</item>
+        <item>要求，出现->倒计时->消失  具体过程见英语流利说软件 闯关</item>
+        <item>随机顺序加载三张网络图片（图片任意），要求宽度固定（具体屏幕两边10dp）,高度随图片动态调整，图片需要完整显示。</item>
+    </string-array>
+</resources>
