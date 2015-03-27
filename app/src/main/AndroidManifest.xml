@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".module.imageloader.ImageLoaderActivity"
             android:label="@string/activity_image_loader_name"/>
+        <activity android:name=".module.animation.CountDownAnimationActivity"
+            android:label="@string/activity_count_down_animation_name"/>
     </application>
 
 </manifest>

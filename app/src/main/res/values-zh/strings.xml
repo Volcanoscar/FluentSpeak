@@ -2,5 +2,5 @@
 <resources>
     <string name="activity_image_loader_name">图片加载</string>
     <string name="activity_xiaomi_name">小米天气</string>
-    <string name="activity_animation_name">倒计时动效</string>
+    <string name="activity_count_down_animation_name">倒计时动画</string>
 </resources>

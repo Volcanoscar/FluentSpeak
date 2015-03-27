@@ -9,6 +9,7 @@ import android.widget.ListView;
 import com.aaron.fluentspeak.R;
 import com.aaron.fluentspeak.base.BaseActivity;
 import com.aaron.fluentspeak.module.imageloader.ImageLoaderActivity;
+import com.aaron.fluentspeak.module.animation.CountDownAnimationActivity;
 import com.aaron.fluentspeak.utils.PopupUtils;
 
 import java.util.ArrayList;
@@ -70,7 +71,7 @@ public class MainActivity extends BaseActivity {
 
                     break;
                 case MainItem.POSITION_ANIMATION:
-
+                    cls = CountDownAnimationActivity.class;
                     break;
                 case MainItem.POSITION_IMAGE_LOADER:
                     cls = ImageLoaderActivity.class;

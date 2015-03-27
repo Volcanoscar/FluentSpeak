@@ -2,8 +2,7 @@
 <resources>
 
     <string name="app_name">FluentSpeak</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
     <string name="activity_image_loader_name">Image Loader</string>
+    <string name="activity_count_down_animation_name">CountDown Animation</string>
 
 </resources>
