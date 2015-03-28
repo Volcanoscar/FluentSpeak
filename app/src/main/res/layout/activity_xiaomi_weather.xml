@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/style_xiaomi_text"
+        android:id="@+id/text_view_xiaomi_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="城市："/>
+    <TextView
+        style="@style/style_xiaomi_text"
+        android:id="@+id/text_view_xiaomi_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="天气："/>
+    <Button
+        android:id="@+id/button_xiaomi_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="获取小米天气信息"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

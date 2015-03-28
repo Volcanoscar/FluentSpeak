@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_xiaomi_weather_name">小米天气</string>
+    <string name="request_fail">数据请求失败！</string>
+    <string name="mi_city_text">城市：%s</string>
+    <string name="mi_weather_text">天气：%s</string>
+    <string name="request_loading">正在加载...</string>
+</resources>
