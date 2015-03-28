@@ -5,4 +5,15 @@
     <string name="activity_image_loader_name">Image Loader</string>
     <string name="activity_count_down_animation_name">CountDown Animation</string>
 
+    <!--activity title name-->
+    <string name="activity_xiaomi_weather_name">mi weather</string>
+
+    <!--request-->
+    <string name="request_loading">request loading</string>
+    <string name="request_fail">request fail..</string>
+
+    <!--text-->
+    <string name="mi_city_text">city：%s</string>
+    <string name="mi_weather_text">weather：%s</string>
+
 </resources>

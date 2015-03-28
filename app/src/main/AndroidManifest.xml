@@ -3,7 +3,6 @@
     package="com.aaron.fluentspeak" >
 
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -23,6 +22,8 @@
             android:label="@string/activity_image_loader_name"/>
         <activity android:name=".module.animation.CountDownAnimationActivity"
             android:label="@string/activity_count_down_animation_name"/>
+        <activity android:name=".module.xiaomi.XiaomiWeatherActivity"
+            android:label="@string/activity_xiaomi_weather_name"/>
     </application>
 
 </manifest>

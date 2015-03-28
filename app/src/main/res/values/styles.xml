@@ -5,4 +5,12 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+    <style name="style_xiaomi_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
 </resources>

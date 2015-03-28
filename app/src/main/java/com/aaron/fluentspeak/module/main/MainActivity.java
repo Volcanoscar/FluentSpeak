@@ -10,6 +10,7 @@ import com.aaron.fluentspeak.R;
 import com.aaron.fluentspeak.base.BaseActivity;
 import com.aaron.fluentspeak.module.imageloader.ImageLoaderActivity;
 import com.aaron.fluentspeak.module.animation.CountDownAnimationActivity;
+import com.aaron.fluentspeak.module.xiaomi.XiaomiWeatherActivity;
 import com.aaron.fluentspeak.utils.PopupUtils;
 
 import java.util.ArrayList;
@@ -68,7 +69,7 @@ public class MainActivity extends BaseActivity {
             Class<?> cls = null;
             switch ((int) id) {
                 case MainItem.POSITION_XIAOMI_WEATHER:
-
+                    cls = XiaomiWeatherActivity.class;
                     break;
                 case MainItem.POSITION_ANIMATION:
                     cls = CountDownAnimationActivity.class;
